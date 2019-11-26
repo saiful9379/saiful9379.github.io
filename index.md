@@ -1,6 +1,6 @@
 ## Welcome to my Github Page
  Hello! I am saiful , an artificial initelligence learner. Recenly i am working as a Researcher and Developer at 
- [editor on GitHub](https://ematicslab.net)Semanticslab.
+ [Semanticslab](https://semanticslab.net).
  
 
 # Computer Vision
