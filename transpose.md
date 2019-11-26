@@ -1,7 +1,6 @@
 # Transpose Matrix Problem
-Lot of problem we have alreay solved in mathematics and matrix is the most common problem in provious classes and still now. 
-In this post i try to solve matrix transpose problem programmaticaly.so let try to solve this problem use python
-programming language.
+Lot of problem we have alreay solved in mathematics,the matrix is the most common problem in provious classes and still now. 
+In this post i try to solve matrix transpose problem programmaticaly.so let try to solve this problem use python programming language.
 
 Example:
 ```
