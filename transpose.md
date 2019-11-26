@@ -44,7 +44,7 @@ Result:
 
 ```
 
-######################### Custom transpose if all list are not equal ####################
+######################### Custom transpose function we can use if list of list dimension are not equal ####################
 ```
 m = [[1,2,3],[3,4],[5,6],[1],[],['',2]]
 def custom_transpose(m):
