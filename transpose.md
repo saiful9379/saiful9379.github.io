@@ -19,6 +19,13 @@ if list of list lenght are equal then use this below code
 transpose_table = [[2,4,7],[3,5,8]]
 x = [list(i) for i in zip(*transpose_table)]
 print(x)
+
+Result:
+
+[[2, 3],
+ [4, 5],
+ [7, 8]]
+
 ```
 
 Simply you can use numpy array to transpose your matrix then you need to install numpy in order to import it Numpy transpose returns similar result when applied on 1D matrix.
@@ -28,6 +35,13 @@ matrix=[[1,2,3],[4,5,6]]
 print(matrix) 
 print("\n") 
 print(numpy.transpose(matrix))
+
+Result:
+
+[[1 4]
+ [2 5]
+ [3 6]]
+
 ```
 
 ######################### Custom transpose if all list are not equal ####################
@@ -47,4 +61,10 @@ def custom_transpose(m):
 
 t_list = custom_transpose(m)
 print(t_list)
+
+Result:
+[[1, 3, 5, 1, '', ''], 
+[2, 4, 6, '', '', 2], 
+[3, '', '', '', '', '']]
+
 ```
