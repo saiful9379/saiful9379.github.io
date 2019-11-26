@@ -1,8 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome to my Github Page
+ Hello! I am saiful , an artificial initelligence learner. Recenly i am working as a Researcher and Developer at 
+ [editor on GitHub](https://ematicslab.net)Semanticslab.
+ 
 
-You can use the [editor on GitHub](https://github.com/saiful79/saiful79.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Computer Vision
+ 
+<ul>
+<li><a href="https://github.com/saiful79/Synthesis-Data-Generation">Synthesis-Data-Generation</a></li>
+</ul>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Computer vision blog
+ 
+
+ 
+# NLP-with-Python
+ 
+<ul>
+<li><a href="https://github.com/saiful79/Bengali-Word-Vectors">Bengali-Word-Vectors</a></li>
+</ul>
+ 
+# Project
+<ul>
+<li><a href="https://github.com/saiful79/Face_Recognition_using_Keras_and_vggface2">Face_Recognition_using_Keras_and_vggface2</a></li>
+</ul>
+
+# Basic and Advence python
+
+<ul>
+<li><a href="https://github.com/saiful79/Python-in-Bangla-">Python-in-Bangla</a></li>
+</ul>
+- [Transpose Matrix in Python](transpose.md)
 
 ### Markdown
 
