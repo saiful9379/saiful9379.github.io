@@ -6,4 +6,5 @@
 
 # Semantics segmentationa and Instance segmentation state of the art 
 - [Mask R-CNN for Object Detection and Segmentation](https://github.com/matterport/Mask_RCNN)
+- [Mask R-CNN Trining speed up](https://github.com/zimmerrol/mask-rcnn-edge-agreement-loss)
 - [DeepLab-v3-plus Semantic Segmentation in TensorFlow](https://github.com/rishizek/tensorflow-deeplab-v3-plus)
