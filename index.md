@@ -8,6 +8,7 @@
 - [Synthesis-Data-Generation](https://github.com/saiful79/Synthesis-Data-Generation)
 
 ## Computer vision blog
+- [state of the art technology](important_link.md)
  
 
  
