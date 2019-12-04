@@ -23,5 +23,6 @@
 # Basic and Advence python
 - [Python-in-Bangla](https://github.com/saiful79/Python-in-Bangla-)
 - [Transpose Matrix in Python](transpose.md)
+- [json split train and val](json_split_train_val.md)
 
 # Research & Publication 
