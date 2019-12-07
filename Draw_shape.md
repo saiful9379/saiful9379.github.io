@@ -1,3 +1,8 @@
+# Opencv Polygon to Rectangle 
+
+Draw image shape polygon to Rectanlge using opencv.
+
+```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -23,3 +28,4 @@ img_mod = cv2.rectangle(img, (new_x,new_y), (w,h), (255,255,255), 2)
 cv2.imwrite("shape.jpg",img_mod)
 plt.imshow(img_mod)
 plt.show()
+```
