@@ -16,7 +16,7 @@ Annotation file and folder structure,
   ```                     
                         
  Script,
-``` 
+```py 
 import json
 import shutil
 import random
