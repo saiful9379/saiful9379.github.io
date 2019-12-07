@@ -1,3 +1,8 @@
+# VGG Annotation format To COCO Format
+
+
+
+```py
 # -*- coding: utf8 -*-
 import json
 import cv2
@@ -14,7 +19,7 @@ OUTPUT_TXT_FILE = "test.txt"
 OUTPUT_JSON_FILE = "coco/test.json"
 
 
-classes_names=['Text','Image','Border_Table','Borderless_Table','Handwritten','Seal']
+classes_names=['Person','Car','Bicycle']
 
 json_dict = {"images": [], "type": "instances", "annotations": [], "categories": []}
 
@@ -96,3 +101,4 @@ with open(OUTPUT_TXT_FILE,"w") as txt_f:
 
 with open(OUTPUT_JSON_FILE, 'w', encoding='utf8') as json_file:
     json.dump(json_dict, json_file, ensure_ascii=False)
+```
