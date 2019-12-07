@@ -89,7 +89,7 @@ Here is an example for the COCO data format JSON file which just contains one im
   ]
 }
 ```
-
+### This script create json file coco fromat and also image mapping txt file,
 
 ```py
 # -*- coding: utf8 -*-
