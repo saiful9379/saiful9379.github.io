@@ -2,7 +2,7 @@
 
 Draw image shape polygon to Rectanlge using opencv.
 
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -29,3 +29,6 @@ cv2.imwrite("shape.jpg",img_mod)
 plt.imshow(img_mod)
 plt.show()
 ```
+
+Here x and y is the polygon (x,y)coordinate.To draw rectanlge we need (x,y) and (w,h) coordinate.So we take min x and min y for rectange (x,y) and max x,y for rectange (w,h).
+
