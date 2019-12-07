@@ -1,5 +1,94 @@
 # VGG Annotation format To COCO Format
 
+Vgg annotation format,
+```json
+{
+    "sample-license-plate.jpg162945": {
+        "filename": "sample-license-plate.jpg",
+        "size": 162945,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 107,
+                    "y": 255,
+                    "width": 127,
+                    "height": 31
+                },
+                "region_attributes": {
+                    "Layout": "Text"
+                }
+            }
+           ]
+        }
+  }
+```
+
+
+Here is an example for the COCO data format JSON file which just contains one image as seen the top-level “images” element, 3 unique categories/classes in total seen in top-level “categories” element and 2 annotated bounding boxes for the image seen in top-level “annotations” element.
+
+```json
+{
+  "type": "instances",
+  "images": [
+    {
+      "file_name": "0.jpg",
+      "height": 600,
+      "width": 800,
+      "id": 0
+    }
+  ],
+  "categories": [
+    {
+      "supercategory": "none",
+      "name": "date",
+      "id": 0
+    },
+    {
+      "supercategory": "none",
+      "name": "hazelnut",
+      "id": 2
+    },
+    {
+      "supercategory": "none",
+      "name": "fig",
+      "id": 1
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "bbox": [
+        100,
+        116,
+        140,
+        170
+      ],
+      "image_id": 0,
+      "segmentation": [],
+      "ignore": 0,
+      "area": 23800,
+      "iscrowd": 0,
+      "category_id": 0
+    },
+    {
+      "id": 2,
+      "bbox": [
+        321,
+        320,
+        142,
+        102
+      ],
+      "image_id": 0,
+      "segmentation": [],
+      "ignore": 0,
+      "area": 14484,
+      "iscrowd": 0,
+      "category_id": 0
+    }
+  ]
+}
+```
 
 
 ```py
