@@ -14,7 +14,7 @@ Example:
 
 ```
 if list of list lenght are equal then use this below code
-```
+```py
 transpose_table = [[2,4,7],[3,5,8]]
 x = [list(i) for i in zip(*transpose_table)]
 print(x)
@@ -28,7 +28,7 @@ Result:
 ```
 
 Simply you can use numpy array to transpose your matrix then you need to install numpy in order to import it Numpy transpose returns similar result when applied on 1D matrix.
-```
+```py
 import numpy
 matrix=[[1,2,3],[4,5,6]] 
 print(matrix) 
@@ -44,7 +44,7 @@ Result:
 ```
 
 Custom transpose function we can use if list of list dimension are not equal
-```
+```py
 m = [[1,2,3],[3,4],[5,6],[1],[],['',2]]
 def custom_transpose(m):
 	column_max = max([len(i) for i in m])
