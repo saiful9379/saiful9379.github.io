@@ -1,4 +1,4 @@
-
+Bangla synthesis Data generator,
 ```py
 from PIL import ImageFont, ImageDraw, Image
 import matplotlib.pyplot as plt
