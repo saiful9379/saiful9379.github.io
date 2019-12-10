@@ -10,7 +10,7 @@
 - [Vgg to coco format](vgg_to_coco_format.md)
 
 ## Computer vision blog
-- [Mask RCNN BLOG] (Mask-RCNN.md)
+- [Mask RCNN BLOG](Mask-RCNN.md)
 - [State of the art technology](important_link.md)
  
 
