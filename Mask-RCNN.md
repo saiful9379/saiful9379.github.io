@@ -5,7 +5,7 @@
 
 #### Region proposal network (RPN)
 
-The RPN should take two inputs, image features (i.e. features extracted by ResNet) and ground truth bounding boxes and produce object proposals and corresponding “objectness” scores. 
+The RPN should take two inputs, image features (i.e. features extracted by ResNet) and ground truth bounding boxes and produce object proposals and corresponding “objectness” scores. RPN
 
 
 I’m visualizing something like basic:
