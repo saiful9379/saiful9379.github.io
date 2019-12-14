@@ -22,7 +22,7 @@
 # Project
 
 - [Face_Recognition_using_Keras_and_vggface2](https://github.com/saiful79/Face_Recognition_using_Keras_and_vggface2)
-- [Text Reconition](https://github.com/saiful79/image-text-recognition)
+- [Text Recognition](https://github.com/saiful79/image-text-recognition)
 
 # Basic and Advence python
 - [Python-in-Bangla](https://github.com/saiful79/Python-in-Bangla-)
