@@ -30,4 +30,4 @@
 - [json split train and val](json_split_train_val.md)
 
 # Research & Publication
- - Semantics Textual Similarity
+ - Semantics Textual Similarity(Academic)
