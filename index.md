@@ -28,6 +28,8 @@
 - [Python-in-Bangla](https://github.com/saiful79/Python-in-Bangla-)
 - [Transpose Matrix in Python](transpose.md)
 - [json split train and val](json_split_train_val.md)
+- [image_move_onedir2another](image_move_onedir2another.md)
+
 
 # Research & Publication
  - Semantics Textual Similarity(Academic)
