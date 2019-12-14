@@ -29,4 +29,5 @@
 - [Transpose Matrix in Python](transpose.md)
 - [json split train and val](json_split_train_val.md)
 
-# Research & Publication 
+# Research & Publication
+ - Semantics Textual Similarity
