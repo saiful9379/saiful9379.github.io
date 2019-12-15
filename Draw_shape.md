@@ -1,4 +1,4 @@
-# Opencv image shape draw
+# Opencv shape Drawing Solution
 ### Draw rectangle with 4 co-ordinates visialization
 ```py
 import numpy as np
@@ -24,6 +24,8 @@ cv2.imwrite("shape.jpg",img_mod)
 plt.imshow(img_mod)
 plt.show()
 ```
+Output Result:
+![alt text](img/saiful.png)
 
 
 
@@ -60,4 +62,7 @@ plt.show()
 ```
 
 Here x and y is the polygon (x,y)coordinate.To draw rectanlge we need (x,y) and (w,h) coordinate.So we take min x and min y for rectange (x,y) and max x,y for rectange (w,h).
+
+Output Result:
+![alt text](img/saiful_2.png)
 
