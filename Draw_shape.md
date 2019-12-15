@@ -1,4 +1,33 @@
-# Opencv Polygon to Rectangle 
+# Opencv image shape draw
+### Draw rectangle with 4 co-ordinates visialization
+```py
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
+img = np.zeros((2000, 2000, 3), dtype = "uint8")
+x = 500
+y = 500
+w = 1000
+h = 1000
+x_y_co= str(x)+","+str(y)
+x2_y2 = str(w)+","+str(y)
+x3_y3= str(x)+","+str(h)
+x4_x4 = str(w)+","+str(h)
+
+img_mod = cv2.rectangle(img, (x,y), (w,h), (255,255,255), 2)
+
+cv2.putText(img,x_y_co, (x,y), cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255))
+cv2.putText(img,x2_y2, (w,y), cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255))
+cv2.putText(img,x3_y3, (x,h), cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255))
+cv2.putText(img,x4_x4, (w,h), cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255))
+cv2.imwrite("shape.jpg",img_mod)
+plt.imshow(img_mod)
+plt.show()
+```
+
+
+
+### Opencv Polygon to Rectangle 
 
 Draw image shape polygon to Rectanlge using opencv.
 
