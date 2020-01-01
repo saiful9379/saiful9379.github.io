@@ -1,6 +1,6 @@
 # This blog are listed by state of the art technoloty 
 
-## *2018 Data Science Bowl*
+## *2018 Data Science*
 ## Find the nuclei in divergent images to advance medical discovery
 
 - [Find the nuclei in divergent images to advance medical discovery](https://www.kaggle.com/c/data-science-bowl-2018/notebooks)
