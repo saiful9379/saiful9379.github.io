@@ -66,3 +66,43 @@ Here x and y is the polygon (x,y)coordinate.To draw rectanlge we need (x,y) and 
 Output Result:
 ![alt text](img/saiful_2.png)
 
+# Roi to polygon Draw:
+```py 
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
+img = cv2.imread("Scan_20191211 (3).jpg")
+p_img = img.copy()
+# img = np.zeros((1000, 1000, 3), dtype = "uint8")
+x = 356
+y = 475
+w = x+301
+h = y+72
+
+x1,y1,x2,y2,x3,y3,x4,y4 = x,y,w,y,w,h,x,h
+
+poly_x = [x1,x2,x3,x4]
+poly_y = [y1,y2,y3,y4]
+
+data = [[i,j] for i,j in zip(poly_x,poly_y)]
+penta = np.array([data], np.int32)
+
+# x_y_co= "x:"+str(x)+",y:"+str(y)
+# x2_y2 = "w"+str(w)+",y:"+str(y)
+# x3_y3= "x"+str(x)+",h:"+str(h)
+# x4_x4 = "w"+str(w)+",h:"+str(h)
+
+# img_mod = cv2.rectangle(img, (x,y), (w,h), (0,255,0), 2)
+img_poly = cv2.polylines(p_img, [penta], True, (255,120,255),3)
+
+# cv2.putText(img,x_y_co, (x,y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0))
+# cv2.putText(img,x2_y2, (w,y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0))
+# cv2.putText(img,x3_y3, (x,h), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0))
+# cv2.putText(img,x4_x4, (w,h), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0))
+
+# cv2.imwrite("shape.jpg",img_mod)
+cv2.imwrite("img_poly.jpg",img_poly)
+plt.imshow(img_poly)
+plt.show()
+```
+
