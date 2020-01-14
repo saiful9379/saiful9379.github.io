@@ -2,6 +2,10 @@
 
 if your bangla conbine character boken to draw pillow image please follow this instruction.
 
+Broken text image
+
+![alt text](img/image_1.png)
+
 ```py
 from PIL import ImageFont, Image, ImageDraw, ImageChops, ImageOps
 w, h = 64, 64
@@ -37,3 +41,5 @@ uninstall your previous pillow version and install,
 conda install pillow=6.0.0
 ```
 After following this process my problem solve.
+
+![alt text](img/image.png)
