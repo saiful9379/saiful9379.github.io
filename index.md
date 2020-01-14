@@ -8,6 +8,7 @@
 - [Synthesis-Data-Generation](https://github.com/saiful79/Synthesis-Data-Generation)
 - [Draw image shape use opencv](Draw_shape.md)
 - [Vgg to coco format](vgg_to_coco_format.md)
+- [ImageDraw support for Bangla language](pillow_issue.md)
 
 ## Computer vision blog
 - [Mask RCNN BLOG](Mask-RCNN.md)
