@@ -28,6 +28,7 @@ sudo apt-get install libfreetype6-dev libharfbuzz-dev libfribidi-dev gtk-doc-too
 ```
 
 then clone pillow git and go depends folder
+
 Run,
 ```
 chmod +x install_raqm.sh
