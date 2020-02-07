@@ -31,7 +31,7 @@
 - [json split train and val](json_split_train_val.md)
 - [vgg_annotation_tool_format](vgg_annotation_tool_format.md)
 - [image_move_onedir2another](image_move_onedir2another.md)
-- [East data process](East's-data-process.md)
+- [East data process](East's-data-process.md) Another [East data process ](EAST-Data-preparation.md)
 
 
 # Research & Publication
