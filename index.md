@@ -39,5 +39,8 @@
 # Linux Basic important command
 - [command](linux.md)
 
+# Colab 
+- [Colab](colab_uses.md)
+
 # Research & Publication
  - [Semantics Textual Similarity(Academic)](https://github.com/saiful79/Semantics-Textual-Similarity)
