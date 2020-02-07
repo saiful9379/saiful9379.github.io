@@ -36,6 +36,8 @@
 - [image_move_onedir2another](image_move_onedir2another.md)
 - [East data process](East's-data-process.md) Another [East data process ](EAST-Data-preparation.md)
 
+# Linux Basic important command
+- [command](linux.md)
 
 # Research & Publication
  - [Semantics Textual Similarity(Academic)](https://github.com/saiful79/Semantics-Textual-Similarity)
