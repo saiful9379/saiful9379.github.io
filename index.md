@@ -17,13 +17,16 @@
 
  
 # NLP-with-Python
-
+- [BNTT multi-tokenizer](https://github.com/saiful79/BNTT)
+- [Pos Tagger](https://github.com/saiful79/Pos-Tagger)
 - [Bengali-Word-Vector](https://github.com/saiful79/Bengali-Word-Vectors)
 
 # Project
 
 - [Face_Recognition_using_Keras_and_vggface2](https://github.com/saiful79/Face_Recognition_using_Keras_and_vggface2)
 - [Text Recognition](https://github.com/saiful79/image-text-recognition)
+- [Text detection](https://github.com/saiful79/Text-Detection)
+- []
 
 # Basic and Advence python
 - [Python-in-Bangla](https://github.com/saiful79/Python-in-Bangla-)
@@ -35,4 +38,4 @@
 
 
 # Research & Publication
- - Semantics Textual Similarity(Academic)
+ - [Semantics Textual Similarity(Academic)](https://github.com/saiful79/Semantics-Textual-Similarity)
