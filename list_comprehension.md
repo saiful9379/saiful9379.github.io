@@ -25,3 +25,10 @@ x = list(''.join(str(i)+'s'*(i%2==1) for i,v in enumerate (li)))
 ```py
 ["Even" if i%2==0 else "Odd" for i in range(10)]
 ```
+```py 
+matrix = [[1, 2], [3,4], [5,6], [7,8]]
+[j for i in matrix for j in i]                                         
+Output: [1, 2, 3, 4, 5, 6, 7, 8]
+```
+
+
