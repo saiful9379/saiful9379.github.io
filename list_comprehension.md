@@ -14,3 +14,9 @@ while True:
     except:
         break
 ```
+
+```py
+li = [1,2,3,4,5]                                                        
+x = list(''.join(str(i)+'s'*(i%2==1) for i,v in enumerate (li)))
+
+```
