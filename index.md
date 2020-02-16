@@ -35,7 +35,7 @@
 - [vgg_annotation_tool_format](vgg_annotation_tool_format.md)
 - [image_move_onedir2another](image_move_onedir2another.md)
 - [East data process](East's-data-process.md) Another [East data process ](EAST-Data-preparation.md)
-- [list comprehension](index2.md)
+- [list comprehension](list_comprehension.md)
 
 # Linux Basic important command
 - [command](linux.md)
