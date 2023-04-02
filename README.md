@@ -9,6 +9,7 @@
 - [Draw image shape use opencv](Draw_shape.md)
 - [Vgg to coco format](vgg_to_coco_format.md)
 - [ImageDraw support for Bangla language](pillow_issue.md)
+- [BD_Vehicles_Detection](https://github.com/saiful9379/BD_Vehicles_Detection)
 
 ## Computer vision blog
 - [Mask RCNN BLOG](Mask-RCNN.md)
@@ -20,13 +21,17 @@
 - [BNTT multi-tokenizer](https://github.com/saiful79/BNTT)
 - [Pos Tagger](https://github.com/saiful79/Pos-Tagger)
 - [Bengali-Word-Vector](https://github.com/saiful79/Bengali-Word-Vectors)
+- [Bangla_Translation](https://github.com/saiful9379/Bangla_Translation)
+- [Bangla_GPT2](https://github.com/saiful9379/Bangla_GPT2)
+- [Bangla_Roberta_Question_and_Answer][https://github.com/saiful9379/Bangla_Roberta_Question_and_Answer]
 
 # Project
 
 - [Face_Recognition_using_Keras_and_vggface2](https://github.com/saiful79/Face_Recognition_using_Keras_and_vggface2)
-- [Text Recognition](https://github.com/saiful79/image-text-recognition)
+- [CTC Text Recognition](https://github.com/saiful79/image-text-recognition)
 - [Text detection](https://github.com/saiful79/Text-Detection)
 - [OMR](https://github.com/saiful79/OMR-Opencv)
+- [Bangli_Text_Recognition](https://github.com/saiful9379/Bangli_Text_Recognition)
 
 # Basic and Advence python
 - [Python-in-Bangla](https://github.com/saiful79/Python-in-Bangla-)
