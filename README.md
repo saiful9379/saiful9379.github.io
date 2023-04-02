@@ -48,5 +48,8 @@
 # Colab 
 - [Colab](colab_uses.md)
 
+# huggingface
+- [Bangla_Roberta_Question_and_Answer](https://huggingface.co/saiful9379/Bangla_Roberta_Question_and_Answer)
+
 # Research & Publication
  - [Semantics Textual Similarity(Academic)](https://github.com/saiful79/Semantics-Textual-Similarity)
